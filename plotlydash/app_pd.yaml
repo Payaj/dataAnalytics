@@ -1,0 +1,9 @@
+entrypoint: gunicorn -b :$PORT main:server
+
+runtime: custom
+
+env: flex
+manual_scaling:
+  instances: 1
+
+#service: s2

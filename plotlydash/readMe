@@ -1,0 +1,24 @@
+This folder is for plotlydash. 
+
+To make changes in the cloud platform, 
+1) push changes in the github 
+2) go to Google cloud console, make sure in the right project (Scout-main) on the upper left
+3) click Activiate Cloud Shell on the upper right menu (second icon)
+4) do "cd dataScience/plotlydash"
+5) do "git pull"
+6) enter the username and password of this github
+7) do "gcloud app deploy app_pd.yaml --project scout-243315"
+8) make sure the modified server is 'default'
+
+
+Note:
+The first graph(line chart) uses the heighborhood drop down menu to filter and query the transactions from the database.
+The bed, type, year, sqft, $/sqft are used to filter the dataframe in pandas way(not query).
+
+If you need to update the line chart, you need to make changes to the drop down menu/click box/slider, then click the "update" button.
+This update process may take long time! Do not change anything until the webpage is fully updated(as shown on the browser tab). 
+If the tab shows "updating", DO NOT TOUCH ANYTHING otherwise the web server will crush!!!!
+
+The second gragh(bar chart) with k mean cluster uses the year slider to filter and query all neighborhood transactions from the database.
+The bed, type, sqft, $/sqft are used to filter the dataframe in pandas way(not query).
+Again, if the tab shows "updating", DO NOT TOUCH ANYTHING otherwise the web server will crush!!!

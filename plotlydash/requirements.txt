@@ -1,0 +1,15 @@
+gunicorn==19.9.0
+Flask==1.0.2
+Flask-RESTful==0.3.6
+dash==1.1.1
+dash-core-components==1.1.1
+dash-html-components==1.0.0
+dash-renderer==1.0.0
+dash-table==4.1.0	
+plotly==4.1.0
+pandas ==0.24.2
+numpy == 1.16.4
+scikit-learn==0.21.3
+mathematics == 1.0.0
+pyodbc==4.0.26
+DateTime == 4.3
